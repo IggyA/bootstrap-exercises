@@ -3,19 +3,17 @@
 Create the following site w/ Bootstrap 
 The images you'll need are available at `/material/img.zip`
 
-### Home Page 
+### Home Page [My solution](home.html)
 
-![img/home-1400](img/home-1400.png)
+![final/home-1400](final/home-1400.png)
 
-### About Page 
+### About Page [My solution](about.html) 
 
-![img/about-1400](img/about-1400.png)
+![final/about-1400](img/about-1400.png)
 
-### Contact Page 
+### Contact Page [My solution](contact.html)
 
-![img/contact-1400](img/contact-1400.png)
-
-You have more images of different versions (different resolutions) of these designs at the `img` folder
+![final/contact-1400](img/contact-1400.png)
 
 ## What you'll learn
 
