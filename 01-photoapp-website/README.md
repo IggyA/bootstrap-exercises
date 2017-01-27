@@ -9,11 +9,11 @@ The images you'll need are available at `/material/img.zip`
 
 ### About Page [My solution](about.html) 
 
-![final/about-1400](img/about-1400.png)
+![final/about-1400](final/about-1400.png)
 
 ### Contact Page [My solution](contact.html)
 
-![final/contact-1400](img/contact-1400.png)
+![final/contact-1400](final/contact-1400.png)
 
 ## What you'll learn
 
