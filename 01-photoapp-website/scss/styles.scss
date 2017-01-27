@@ -1,0 +1,82 @@
+@import 'reset';
+
+$green-project: #1caa98;
+
+.jumbotron {
+  background-image: url('../img/site_showcase_bg.jpg');
+  height: 450px;
+  color: white;
+  padding: 0px;
+  h1 span {
+      color: $green-project;
+  }
+}
+
+.main-title {
+  background-color:$green-project;
+  h1 {
+    color: white;
+    margin: 0; 
+    vertical-align: middle;
+    padding: .5em 0em;
+  }
+}
+
+.group-items {
+  margin-top:20px;
+}
+
+.background-green{
+  background-color: $green-project;
+  color: white;
+
+}
+
+.gamma-features{
+  width: 50%;
+  margin: 0 auto;
+  line-height: 1.5em;
+  font-size: 1.5em;
+}
+
+.thumbnail {
+  border: 0;
+}
+
+.border-grey {
+  border: 1px solid gray;
+  padding: 5px;
+}
+
+.site-phone {
+  background-image: url('../img/site_phone.png');
+  background-repeat: no-repeat;
+  height: 450px;
+}
+
+.cont-form-img{
+  margin-top: 2em;
+}
+
+.bottom-form{
+  margin-bottom: 2em;
+}
+
+.foto-sep {
+  margin-top: 1em;
+}
+aside {
+  padding-bottom: 2em;
+}
+
+footer {
+  background-color: #333333;
+  color: white;
+  line-height: 3em;
+  ul {
+      margin-bottom: 0px
+  }
+  a {
+    color: white;
+  }
+}

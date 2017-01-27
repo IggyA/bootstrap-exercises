@@ -1,0 +1,106 @@
+/* line 1, /home/iggy/Documents/skylab-project/bootstrap-exercises/01-photoapp-website/scss/_reset.scss */
+.navbar {
+  margin: 0;
+}
+
+/* line 5, /home/iggy/Documents/skylab-project/bootstrap-exercises/01-photoapp-website/scss/styles.scss */
+.jumbotron {
+  background-image: url("../img/site_showcase_bg.jpg");
+  height: 450px;
+  color: white;
+  padding: 0px;
+}
+
+/* line 10, /home/iggy/Documents/skylab-project/bootstrap-exercises/01-photoapp-website/scss/styles.scss */
+.jumbotron h1 span {
+  color: #1caa98;
+}
+
+/* line 15, /home/iggy/Documents/skylab-project/bootstrap-exercises/01-photoapp-website/scss/styles.scss */
+.main-title {
+  background-color: #1caa98;
+}
+
+/* line 17, /home/iggy/Documents/skylab-project/bootstrap-exercises/01-photoapp-website/scss/styles.scss */
+.main-title h1 {
+  color: white;
+  margin: 0;
+  vertical-align: middle;
+  padding: .5em 0em;
+}
+
+/* line 25, /home/iggy/Documents/skylab-project/bootstrap-exercises/01-photoapp-website/scss/styles.scss */
+.group-items {
+  margin-top: 20px;
+}
+
+/* line 29, /home/iggy/Documents/skylab-project/bootstrap-exercises/01-photoapp-website/scss/styles.scss */
+.background-green {
+  background-color: #1caa98;
+  color: white;
+}
+
+/* line 35, /home/iggy/Documents/skylab-project/bootstrap-exercises/01-photoapp-website/scss/styles.scss */
+.gamma-features {
+  width: 50%;
+  margin: 0 auto;
+  line-height: 1.5em;
+  font-size: 1.5em;
+}
+
+/* line 42, /home/iggy/Documents/skylab-project/bootstrap-exercises/01-photoapp-website/scss/styles.scss */
+.thumbnail {
+  border: 0;
+}
+
+/* line 46, /home/iggy/Documents/skylab-project/bootstrap-exercises/01-photoapp-website/scss/styles.scss */
+.border-grey {
+  border: 1px solid gray;
+  padding: 5px;
+}
+
+/* line 51, /home/iggy/Documents/skylab-project/bootstrap-exercises/01-photoapp-website/scss/styles.scss */
+.site-phone {
+  background-image: url("../img/site_phone.png");
+  background-repeat: no-repeat;
+  height: 450px;
+}
+
+/* line 57, /home/iggy/Documents/skylab-project/bootstrap-exercises/01-photoapp-website/scss/styles.scss */
+.cont-form-img {
+  margin-top: 2em;
+}
+
+/* line 61, /home/iggy/Documents/skylab-project/bootstrap-exercises/01-photoapp-website/scss/styles.scss */
+.bottom-form {
+  margin-bottom: 2em;
+}
+
+/* line 65, /home/iggy/Documents/skylab-project/bootstrap-exercises/01-photoapp-website/scss/styles.scss */
+.foto-sep {
+  margin-top: 1em;
+}
+
+/* line 68, /home/iggy/Documents/skylab-project/bootstrap-exercises/01-photoapp-website/scss/styles.scss */
+aside {
+  padding-bottom: 2em;
+}
+
+/* line 72, /home/iggy/Documents/skylab-project/bootstrap-exercises/01-photoapp-website/scss/styles.scss */
+footer {
+  background-color: #333333;
+  color: white;
+  line-height: 3em;
+}
+
+/* line 76, /home/iggy/Documents/skylab-project/bootstrap-exercises/01-photoapp-website/scss/styles.scss */
+footer ul {
+  margin-bottom: 0px;
+}
+
+/* line 79, /home/iggy/Documents/skylab-project/bootstrap-exercises/01-photoapp-website/scss/styles.scss */
+footer a {
+  color: white;
+}
+
+/*# sourceMappingURL=../css/styles.map */
