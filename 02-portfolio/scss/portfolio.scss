@@ -1,0 +1,89 @@
+$background-body: #EDEDED;
+$text-blue: #4A6680;
+body {
+    background-color: $background-body;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    span {
+        display: block;
+    }
+    strong {
+        color: #4A6680;
+    }
+}
+
+h2 {
+    color: $text-blue;
+    font-size: 2em;
+    font-weight: bolder;
+}
+
+.main-container {
+    margin-top: 4em;
+    background-color: white;
+}
+
+.img-portrait {
+    width: 8em;
+    margin-top: -4em;
+}
+
+.list-unstyled img {
+    height: 1em;
+}
+
+.educ-exp-list {
+    padding: .5em 1em;
+    background-color: $background-body;
+    margin-bottom: 1em;
+}
+
+.service-list {
+    margin-bottom: 1em;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #3B5A76;
+    color: white;
+    line-height: 3em;
+    height: 3em;
+    vertical-align: middle;
+}
+
+.img-work {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    @media all and (max-width: 1200px) and (min-width: 992px) {
+        display: block;
+    }
+}
+
+.icons-contact-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    li {
+        line-height: 3em;
+        vertical-align: middle;
+        padding-left: 4em;
+        margin-bottom: 1em;
+        background-repeat: no-repeat;
+        background-position: left top;
+        &:first-child {
+            background-image: url("../img/phone.svg");
+        }
+        &:nth-child(2) {
+            background-image: url("../img/envelope.svg");
+        }
+        &:nth-child(3) {
+            background-image: url("../img/facebook.svg");
+        }
+        &:last-child {
+            background-image: url("../img/twitter.svg");
+        }
+    }
+}
