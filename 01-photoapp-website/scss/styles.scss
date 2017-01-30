@@ -76,11 +76,22 @@ aside {
 footer {
   background-color: #333333;
   color: white;
-  line-height: 3em;
+  padding: 1em 0em;
+
   ul {
       margin-bottom: 0px
   }
   a {
     color: white;
+  }
+
+  @media screen and (max-width: 768px) {
+    p {
+      text-align: center;
+    }
+    ul {
+      text-align: center;
+      padding-bottom: 1em;
+    }
   }
 }

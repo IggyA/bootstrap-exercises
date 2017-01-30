@@ -98,17 +98,29 @@ aside {
 footer {
   background-color: #333333;
   color: white;
-  line-height: 3em;
+  padding: 1em 0em;
 }
 
-/* line 80, /home/iggy/Documents/skylab-project/bootstrap-exercises/01-photoapp-website/scss/styles.scss */
+/* line 81, /home/iggy/Documents/skylab-project/bootstrap-exercises/01-photoapp-website/scss/styles.scss */
 footer ul {
   margin-bottom: 0px;
 }
 
-/* line 83, /home/iggy/Documents/skylab-project/bootstrap-exercises/01-photoapp-website/scss/styles.scss */
+/* line 84, /home/iggy/Documents/skylab-project/bootstrap-exercises/01-photoapp-website/scss/styles.scss */
 footer a {
   color: white;
+}
+
+@media screen and (max-width: 768px) {
+  /* line 89, /home/iggy/Documents/skylab-project/bootstrap-exercises/01-photoapp-website/scss/styles.scss */
+  footer p {
+    text-align: center;
+  }
+  /* line 92, /home/iggy/Documents/skylab-project/bootstrap-exercises/01-photoapp-website/scss/styles.scss */
+  footer ul {
+    text-align: center;
+    padding-bottom: 1em;
+  }
 }
 
 /*# sourceMappingURL=../css/styles.map */
