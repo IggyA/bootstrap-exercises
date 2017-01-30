@@ -10,6 +10,10 @@ $green-project: #1caa98;
   h1 span {
       color: $green-project;
   }
+  @media screen and (max-width: 768px) {
+    background-image: none;
+    background-color: #1B222A;
+  }
 }
 
 .main-title {
