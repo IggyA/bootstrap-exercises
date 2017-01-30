@@ -89,24 +89,25 @@ footer {
   margin-bottom: 1em;
   background-repeat: no-repeat;
   background-position: left top;
+  background-size: contain;
 }
 
-/* line 76, /home/iggy/Documents/skylab-project/bootstrap-exercises/02-portfolio/scss/portfolio.scss */
+/* line 77, /home/iggy/Documents/skylab-project/bootstrap-exercises/02-portfolio/scss/portfolio.scss */
 .icons-contact-list li:first-child {
   background-image: url("../img/phone.svg");
 }
 
-/* line 79, /home/iggy/Documents/skylab-project/bootstrap-exercises/02-portfolio/scss/portfolio.scss */
+/* line 80, /home/iggy/Documents/skylab-project/bootstrap-exercises/02-portfolio/scss/portfolio.scss */
 .icons-contact-list li:nth-child(2) {
   background-image: url("../img/envelope.svg");
 }
 
-/* line 82, /home/iggy/Documents/skylab-project/bootstrap-exercises/02-portfolio/scss/portfolio.scss */
+/* line 83, /home/iggy/Documents/skylab-project/bootstrap-exercises/02-portfolio/scss/portfolio.scss */
 .icons-contact-list li:nth-child(3) {
   background-image: url("../img/facebook.svg");
 }
 
-/* line 85, /home/iggy/Documents/skylab-project/bootstrap-exercises/02-portfolio/scss/portfolio.scss */
+/* line 86, /home/iggy/Documents/skylab-project/bootstrap-exercises/02-portfolio/scss/portfolio.scss */
 .icons-contact-list li:last-child {
   background-image: url("../img/twitter.svg");
 }

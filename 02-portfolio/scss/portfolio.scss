@@ -73,17 +73,18 @@ footer {
         margin-bottom: 1em;
         background-repeat: no-repeat;
         background-position: left top;
+        background-size: contain;
         &:first-child {
-            background-image: url("../img/phone.svg");
+          background-image: url("../img/phone.svg");
         }
         &:nth-child(2) {
-            background-image: url("../img/envelope.svg");
+          background-image: url("../img/envelope.svg");
         }
         &:nth-child(3) {
-            background-image: url("../img/facebook.svg");
+          background-image: url("../img/facebook.svg");
         }
         &:last-child {
-            background-image: url("../img/twitter.svg");
+          background-image: url("../img/twitter.svg");
         }
     }
 }
